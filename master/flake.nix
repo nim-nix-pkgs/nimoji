@@ -11,7 +11,6 @@
   inputs.src-nimoji-master.ref   = "refs/heads/master";
   inputs.src-nimoji-master.owner = "pietroppeter";
   inputs.src-nimoji-master.repo  = "nimoji";
-  inputs.src-nimoji-master.dir   = "";
   inputs.src-nimoji-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
